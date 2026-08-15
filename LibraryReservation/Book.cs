@@ -23,7 +23,7 @@ namespace LibraryReservation
         public void MarkAsReserved()
         {
             if (IsReserved)
-                throw new InvalidOperationException("Book is alreday reserved");
+                throw new InvalidOperationException("Book is already reserved");
 
             IsReserved = true;
         }
